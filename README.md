@@ -64,12 +64,12 @@ python predict.py --sensor-id 1 --api-base http://localhost:8000 --model rf
 
 ## Team task division (Group 12 — 4 members)
 
-| Member | Task owned | Deliverable |
-|---|---|---|
-| Member A | Task 1 — EDA & Preprocessing | Sections 1–4 of the notebook: data loading, EDA, missing-value strategy, 5 analytical questions |
-| Member B | Task 1 — Modeling | Sections 5–7 of the notebook: RandomForest + LSTM experiments, hyperparameter tuning, experiment table, artifact export |
-| Member C | Task 2 — Databases | `sql/schema.sql`, `mongodb/mongodb_design.py`, ERD diagram, sample queries for both DBs |
-| Member D | Tasks 3 & 4 — API & Prediction script | `api/app.py` (CRUD + time-series endpoints for both DBs), `scripts/predict.py`, report assembly |
+| Member | Task owned | Deliverable | Commits |
+|---|---|---|---|
+| Nehemie Ishimwe | Task 1 — EDA & Preprocessing | Notebook data loading, processing & loading, EDA, initial README | Initial commit; Data processing; Data processing and loading |
+| Delucie Rurangwa | Task 1 — Modeling | Notebook build-out: RandomForest + LSTM experiments, tuning, experiment table | notebook; final notebook |
+| Manzi Ivan | Task 2 — Databases & repo/artifacts | `sql/schema.sql`, `mongodb/mongodb_design.py`, `mongodb/seed_hourly.py`, ERD diagram; repo restructure, `requirements.txt`, notebook re-run to export artifacts | re-arrangement of repo; re-run to generate artifacts; SQL schema, MongoDB design & ERD |
+| Jacques Twizeyimana | Tasks 3 & 4 — API & Prediction script | `api/app.py` (CRUD + time-series endpoints for both DBs), `scripts/predict.py` | CRUD & time-series API; end-to-end forecasting script |
 
 Each member commits their own component directly (≥4 commits per person with
 descriptive messages) to satisfy the "Individual Technical Contribution"
