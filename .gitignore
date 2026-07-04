@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.venv311/
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+
+# Large raw data (download separately from Kaggle)
+data/*.CSV
+data/*.csv
+
+# Local env
+.env
