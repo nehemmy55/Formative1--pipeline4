@@ -1,0 +1,1 @@
+{"timestamp_col": "time", "target_col": "temperature", "feature_cols": ["temperature", "humidity", "pressure", "lux"], "seq_len": 12}

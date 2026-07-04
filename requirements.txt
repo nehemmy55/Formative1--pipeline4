@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+kagglehub
+joblib
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+pymongo
+requests
+pydantic
