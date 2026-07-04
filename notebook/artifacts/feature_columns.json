@@ -1,0 +1,1 @@
+["humidity", "pressure", "lux", "hour", "temperature_lag1", "temperature_lag3", "temperature_lag6", "temperature_ma6", "temperature_ma24", "temperature_std6", "dayofweek"]
